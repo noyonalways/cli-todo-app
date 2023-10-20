@@ -55,13 +55,12 @@ class Todo {
 		const result = [];
 		for (let i = 0; i < this.todoList.length; i++) {
 			const item = this.todoList[i];
-			if (item.text.toLowerCase().includes(term.toLowerCase())) {
+			if (item.text.toLowerCase().includes(term?.toLowerCase())) {
 				result.push(item);
 			}
 		}
 		return result;
 	}
 }
-
 
 module.exports = Todo;
