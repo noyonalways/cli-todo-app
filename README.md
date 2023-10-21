@@ -6,13 +6,24 @@
     npm install
 
 ### Commands
-
-    node index.js add --text="something text" -> To add a new todo
-    node index.js list -> To see the all todo list
-    node index.js next -> To see the next todo task
-    node index.js done -> Completed todo remove from the todo list
-    node index.js update --id="todo id" --text="updated text" -> To update a Todo
-    node index.js find --terms="search terms here" -> To find a Todo using terms 
+```
+node index.js add --text="something text" -> To add a new todo
+```
+```
+node index.js list -> To see the all todo list
+```
+```
+node index.js next -> To see the next todo task
+```
+```
+node index.js done -> Completed todo remove from the todo list
+```
+```
+node index.js update --id="todo id" --text="updated text" -> To update a Todo
+```
+```
+node index.js find --terms="search terms here" -> To find a Todo using terms 
+```
 
 ### Connect With Me
 [![Portfolio](https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white "Portfolio")](https://noyonrahman.xyz) 
